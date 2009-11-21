@@ -1,0 +1,1569 @@
+16-11-2009 07:15:26 [thread0-main] Pong2 0.99 Started
+16-11-2009 07:15:26 [thread0-musicSelect] enter
+16-11-2009 07:15:26 [thread0-musicSelect] Selected music track [0]
+16-11-2009 07:15:26 [thread0-musicSelect] leave [void]
+16-11-2009 07:15:26 [thread0-initThreads] enter
+16-11-2009 07:15:26 [thread1-tcp_start_thread] enter
+16-11-2009 07:15:26 [thread1-tcp_clear_memory] enter
+16-11-2009 07:15:26 [thread1-tcp_clear_memory] leave
+16-11-2009 07:15:26 [thread1-tcp_start_thread] leave [0]
+16-11-2009 07:15:26 [thread0-initThreads] leave [void]
+16-11-2009 07:15:26 [thread0-loadHighScoreFile] enter [sd:/apps/pong2/highscore.xml]
+16-11-2009 07:15:26 [thread1-tcp_thread] enter
+16-11-2009 07:15:26 [thread1-tcp_thread] stateMachine=TCP_INIT
+16-11-2009 07:15:26 [thread0-loadHighScoreFile] leave [void]
+16-11-2009 07:15:26 [thread0-initGame] enter
+16-11-2009 07:15:26 [thread0-initGame] leave [void]
+16-11-2009 07:15:26 [thread0-initLevel] enter
+16-11-2009 07:15:26 [thread0-initLevel] leave [void]
+16-11-2009 07:15:26 [thread0-initBall] enter
+16-11-2009 07:15:26 [thread0-initBall] leave [void]
+16-11-2009 07:15:26 [thread0-drawIntroSceen] enter [index=0]
+16-11-2009 07:15:26 [thread0-drawImage] enter
+16-11-2009 07:15:26 [thread0-drawImage] leave [void]
+16-11-2009 07:15:26 [thread1-tcp_init] enter
+16-11-2009 07:15:26 [thread1-tcp_init] Waiting for network to initialise...
+16-11-2009 07:15:28 [thread0-drawIntroSceen] leave [void]
+16-11-2009 07:15:28 [thread0-drawIntroSceen] enter [index=1]
+16-11-2009 07:15:28 [thread0-drawImage] enter
+16-11-2009 07:15:28 [thread0-drawImage] leave [void]
+16-11-2009 07:15:28 [thread0-drawIntroSceen] leave [void]
+16-11-2009 07:15:28 [thread0-drawIntroSceen] enter [index=2]
+16-11-2009 07:15:28 [thread0-drawImage] enter
+16-11-2009 07:15:28 [thread0-drawImage] leave [void]
+16-11-2009 07:15:29 [thread0-drawIntroSceen] leave [void]
+16-11-2009 07:15:29 [thread0-drawGameBoard] enter
+16-11-2009 07:15:29 [thread0-drawGameBoard] leave [void]
+16-11-2009 07:15:29 [thread0-initButtons] enter
+16-11-2009 07:15:29 [thread0-initButtons] leave [void]
+16-11-2009 07:15:29 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:29 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:29 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:29 [thread0-drawImage] enter
+16-11-2009 07:15:29 [thread0-drawImage] leave [void]
+16-11-2009 07:15:29 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:33 [thread1-tcp_init] Network initialised [10.240.136.110].
+16-11-2009 07:15:33 [thread1-tcp_init] leave [0]
+16-11-2009 07:15:33 [thread1-tcp_thread] stateMachine=TCP_REQUEST1a
+16-11-2009 07:15:33 [thread1-http_request] enter
+16-11-2009 07:15:33 [thread1-http_split_url] enter
+16-11-2009 07:15:33 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:33 [thread1-tcp_connect] enter [host=www.plaatsoft.nl|port=80]
+16-11-2009 07:15:33 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:33 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:33 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:33 [thread0-drawImage] enter
+16-11-2009 07:15:33 [thread0-drawImage] leave [void]
+16-11-2009 07:15:33 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:34 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:34 [thread1-tcp_socket] enter
+16-11-2009 07:15:34 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:34 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:34 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:34 [thread1-tcp_connect] DNS resolve=85.158.203.157
+16-11-2009 07:15:34 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:34 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:34 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:34 [thread0-drawImage] enter
+16-11-2009 07:15:34 [thread0-drawImage] leave [void]
+16-11-2009 07:15:34 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:35 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:35 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:35 [thread1-http_request] tcp_connect(www.plaatsoft.nl, 80) = 0
+16-11-2009 07:15:35 [thread1-http_request] request=GET /service/releasenotes1.html HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:35 [thread1-tcp_write] enter [bufsize=199]
+16-11-2009 07:15:35 [thread1-tcp_write] buffer=GET /service/releasenotes1.html HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:35 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:35 [thread1-tcp_readln] enter
+16-11-2009 07:15:35 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:35 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:35 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:35 [thread0-drawImage] enter
+16-11-2009 07:15:35 [thread0-drawImage] leave [void]
+16-11-2009 07:15:35 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:35 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:35 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:35 [thread1-tcp_readln] enter
+16-11-2009 07:15:35 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:35 [thread1-http_request] Date: Mon, 16 Nov 2009 05:13:48 GMT
+16-11-2009 07:15:35 [thread1-tcp_readln] enter
+16-11-2009 07:15:35 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:35 [thread1-http_request] Server: Apache/2
+16-11-2009 07:15:35 [thread1-tcp_readln] enter
+16-11-2009 07:15:35 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:35 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:35 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:35 [thread0-drawImage] enter
+16-11-2009 07:15:35 [thread0-drawImage] leave [void]
+16-11-2009 07:15:35 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:36 [thread1-tcp_readln] leave [bufsize=45]
+16-11-2009 07:15:36 [thread1-http_request] Last-Modified: Fri, 18 Sep 2009 06:25:36 GMT
+16-11-2009 07:15:36 [thread1-tcp_readln] enter
+16-11-2009 07:15:36 [thread1-tcp_readln] leave [bufsize=29]
+16-11-2009 07:15:36 [thread1-http_request] ETag: "1e8075a-d7a-3331b800"
+16-11-2009 07:15:36 [thread1-tcp_readln] enter
+16-11-2009 07:15:36 [thread1-tcp_readln] leave [bufsize=21]
+16-11-2009 07:15:36 [thread1-http_request] Accept-Ranges: bytes
+16-11-2009 07:15:36 [thread1-tcp_readln] enter
+16-11-2009 07:15:36 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:36 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:36 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:36 [thread0-drawImage] enter
+16-11-2009 07:15:36 [thread0-drawImage] leave [void]
+16-11-2009 07:15:36 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:36 [thread1-tcp_readln] leave [bufsize=21]
+16-11-2009 07:15:36 [thread1-http_request] Content-Length: 3450
+16-11-2009 07:15:36 [thread1-tcp_readln] enter
+16-11-2009 07:15:36 [thread0-initButtons] enter
+16-11-2009 07:15:36 [thread0-initButtons] leave [void]
+16-11-2009 07:15:36 [thread0-drawScreen] enter [stateMachine=9]
+16-11-2009 07:15:36 [thread0-drawImage] enter
+16-11-2009 07:15:36 [thread0-drawImage] leave [void]
+16-11-2009 07:15:36 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:36 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:36 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:37 [thread0-initButtons] enter
+16-11-2009 07:15:37 [thread0-initButtons] leave [void]
+16-11-2009 07:15:37 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:37 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:37 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:37 [thread0-drawImage] enter
+16-11-2009 07:15:37 [thread0-drawImage] leave [void]
+16-11-2009 07:15:37 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:38 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:38 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:38 [thread0-drawImage] enter
+16-11-2009 07:15:38 [thread0-drawImage] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:38 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:38 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:38 [thread0-drawImage] enter
+16-11-2009 07:15:38 [thread0-drawImage] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:38 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:38 [thread1-http_request] Content-Type: text/html; charset=UTF-8
+16-11-2009 07:15:38 [thread1-tcp_readln] enter
+16-11-2009 07:15:38 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:38 [thread1-http_request] 
+16-11-2009 07:15:38 [thread1-http_request] content_length=3450, status=200, linecount=8
+16-11-2009 07:15:38 [thread1-tcp_read] enter
+16-11-2009 07:15:38 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:38 [thread1-http_request] leave [true]
+16-11-2009 07:15:38 [thread1-http_get_result] enter
+16-11-2009 07:15:38 [thread1-http_get_result] leave [true]
+16-11-2009 07:15:38 [thread1-http_findToken] enter [ Version ]
+16-11-2009 07:15:38 [thread1-http_findToken] len=9
+16-11-2009 07:15:38 [thread1-http_findToken] startpos=168
+16-11-2009 07:15:38 [thread1-http_findToken] endpos=181
+16-11-2009 07:15:38 [thread1-http_findToken] leave [0.98]
+16-11-2009 07:15:38 [thread1-tcp_thread] version=0.98
+16-11-2009 07:15:38 [thread1-tcp_thread] stateMachine=TCP_REQUEST1b
+16-11-2009 07:15:38 [thread1-http_split_url] enter
+16-11-2009 07:15:38 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] enter
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] domain=[www.plaatsoft.nl]
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] url=[/start/Pong2/0.99]
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] id=[UA-6887062-1]
+16-11-2009 07:15:38 [thread1-http_encode_url] enter
+16-11-2009 07:15:38 [thread1-http_encode_url] buf=[www.plaatsoft.nl]
+16-11-2009 07:15:38 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:38 [thread1-http_encode_url] enter
+16-11-2009 07:15:38 [thread1-http_encode_url] buf=[http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii]
+16-11-2009 07:15:38 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:38 [thread1-http_encode_url] enter
+16-11-2009 07:15:38 [thread1-http_encode_url] buf=[%2Fstart%2FPong2%2F0.99]
+16-11-2009 07:15:38 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:38 [thread1-http_encode_url] enter
+16-11-2009 07:15:38 [thread1-http_encode_url] buf=[WiiBrew%20Pong2%200.99]
+16-11-2009 07:15:38 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] utmac=[UA-6887062-1]
+16-11-2009 07:15:38 [thread1-http_encode_url] enter
+16-11-2009 07:15:38 [thread1-http_encode_url] buf=[Pong2%3D0.99]
+16-11-2009 07:15:38 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] buffer=http://www.google-analytics.com/__utm.gif?utmwv=1&utmn=1758355738&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fstart%2FPong2%2F0.99&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355738.1258269338.1258442138.1258355738.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355738.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B
+16-11-2009 07:15:38 [thread1-http_googleAnalysicUrl] leave [void]
+16-11-2009 07:15:38 [thread1-http_request] enter
+16-11-2009 07:15:38 [thread1-http_split_url] enter
+16-11-2009 07:15:38 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:38 [thread1-tcp_connect] enter [host=www.google-analytics.com|port=80]
+16-11-2009 07:15:38 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:38 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:38 [thread0-drawImage] enter
+16-11-2009 07:15:38 [thread0-drawImage] leave [void]
+16-11-2009 07:15:38 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:40 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:40 [thread1-tcp_socket] enter
+16-11-2009 07:15:40 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:40 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:40 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:40 [thread1-tcp_connect] DNS resolve=74.125.77.139
+16-11-2009 07:15:40 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:40 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:40 [thread0-drawImage] enter
+16-11-2009 07:15:40 [thread0-drawImage] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:40 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:40 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:40 [thread1-http_request] tcp_connect(www.google-analytics.com, 80) = 0
+16-11-2009 07:15:40 [thread1-http_request] request=GET /__utm.gif?utmwv=1&utmn=1758355738&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fstart%2FPong2%2F0.99&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355738.1258269338.1258442138.1258355738.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355738.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:40 [thread1-tcp_write] enter [bufsize=696]
+16-11-2009 07:15:40 [thread1-tcp_write] buffer=GET /__utm.gif?utmwv=1&utmn=1758355738&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fstart%2FPong2%2F0.99&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355738.1258269338.1258442138.1258355738.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355738.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:40 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:40 [thread1-tcp_readln] enter
+16-11-2009 07:15:40 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:40 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:40 [thread0-drawImage] enter
+16-11-2009 07:15:40 [thread0-drawImage] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:40 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:40 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:40 [thread1-tcp_readln] enter
+16-11-2009 07:15:40 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:40 [thread1-http_request] Date: Mon, 16 Nov 2009 05:13:54 GMT
+16-11-2009 07:15:40 [thread1-tcp_readln] enter
+16-11-2009 07:15:40 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:40 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:40 [thread0-drawImage] enter
+16-11-2009 07:15:40 [thread0-drawImage] leave [void]
+16-11-2009 07:15:40 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:41 [thread1-tcp_readln] leave [bufsize=19]
+16-11-2009 07:15:41 [thread1-http_request] Content-Length: 35
+16-11-2009 07:15:41 [thread1-tcp_readln] enter
+16-11-2009 07:15:41 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:41 [thread1-http_request] Pragma: no-cache
+16-11-2009 07:15:41 [thread1-tcp_readln] enter
+16-11-2009 07:15:41 [thread0-initButtons] enter
+16-11-2009 07:15:41 [thread0-initButtons] leave [void]
+16-11-2009 07:15:41 [thread0-drawScreen] enter [stateMachine=9]
+16-11-2009 07:15:41 [thread0-drawImage] enter
+16-11-2009 07:15:41 [thread0-drawImage] leave [void]
+16-11-2009 07:15:41 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:41 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:41 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:42 [thread0-initButtons] enter
+16-11-2009 07:15:42 [thread0-initButtons] leave [void]
+16-11-2009 07:15:42 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:42 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:42 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:42 [thread0-drawImage] enter
+16-11-2009 07:15:42 [thread0-drawImage] leave [void]
+16-11-2009 07:15:42 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:43 [thread1-tcp_readln] leave [bufsize=72]
+16-11-2009 07:15:43 [thread1-http_request] Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+16-11-2009 07:15:43 [thread1-tcp_readln] enter
+16-11-2009 07:15:43 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:43 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:43 [thread0-drawImage] enter
+16-11-2009 07:15:43 [thread0-drawImage] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:43 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:43 [thread1-http_request] Expires: Wed, 19 Apr 2000 11:43:00 GMT
+16-11-2009 07:15:43 [thread1-tcp_readln] enter
+16-11-2009 07:15:43 [thread1-tcp_readln] leave [bufsize=45]
+16-11-2009 07:15:43 [thread1-http_request] Last-Modified: Wed, 21 Jan 2004 19:50:30 GMT
+16-11-2009 07:15:43 [thread1-tcp_readln] enter
+16-11-2009 07:15:43 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:43 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:43 [thread0-drawImage] enter
+16-11-2009 07:15:43 [thread0-drawImage] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:43 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:43 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:43 [thread0-drawImage] enter
+16-11-2009 07:15:43 [thread0-drawImage] leave [void]
+16-11-2009 07:15:43 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:46 [thread1-tcp_readln] leave [bufsize=24]
+16-11-2009 07:15:46 [thread1-http_request] Content-Type: image/gif
+16-11-2009 07:15:46 [thread1-tcp_readln] enter
+16-11-2009 07:15:46 [thread1-tcp_readln] leave [bufsize=14]
+16-11-2009 07:15:46 [thread1-http_request] Server: Golfe
+16-11-2009 07:15:46 [thread1-tcp_readln] enter
+16-11-2009 07:15:46 [thread1-tcp_readln] leave [bufsize=20]
+16-11-2009 07:15:46 [thread1-http_request] X-XSS-Protection: 0
+16-11-2009 07:15:46 [thread1-tcp_readln] enter
+16-11-2009 07:15:46 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:46 [thread1-http_request] 
+16-11-2009 07:15:46 [thread1-http_request] content_length=35, status=200, linecount=10
+16-11-2009 07:15:46 [thread1-tcp_read] enter
+16-11-2009 07:15:46 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:46 [thread1-http_request] leave [true]
+16-11-2009 07:15:46 [thread1-http_get_result] enter
+16-11-2009 07:15:46 [thread1-http_get_result] leave [true]
+GIF89a  €ÿ ÿÿÿ   ,       D ;16-11-2009 07:15:46 [thread1-tcp_thread] stateMachine=TCP_REQUEST2a
+16-11-2009 07:15:46 [thread1-http_request] enter
+16-11-2009 07:15:46 [thread1-http_split_url] enter
+16-11-2009 07:15:46 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:46 [thread1-tcp_connect] enter [host=www.plaatsoft.nl|port=80]
+16-11-2009 07:15:46 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:46 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:46 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:46 [thread0-drawImage] enter
+16-11-2009 07:15:46 [thread0-drawImage] leave [void]
+16-11-2009 07:15:46 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:46 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:46 [thread1-tcp_socket] enter
+16-11-2009 07:15:46 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:46 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:46 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:46 [thread1-tcp_connect] DNS resolve=85.158.203.157
+16-11-2009 07:15:46 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:46 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:46 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:46 [thread0-drawImage] enter
+16-11-2009 07:15:46 [thread0-drawImage] leave [void]
+16-11-2009 07:15:46 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:46 [thread0-initGame] enter
+16-11-2009 07:15:46 [thread0-initGame] leave [void]
+16-11-2009 07:15:46 [thread0-initLevel] enter
+16-11-2009 07:15:46 [thread0-initLevel] leave [void]
+16-11-2009 07:15:46 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:46 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:46 [thread1-http_request] tcp_connect(www.plaatsoft.nl, 80) = 0
+16-11-2009 07:15:46 [thread1-http_request] request=GET /service/releasenotes1.html HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:46 [thread1-tcp_write] enter [bufsize=199]
+16-11-2009 07:15:46 [thread1-tcp_write] buffer=GET /service/releasenotes1.html HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:46 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:46 [thread1-tcp_readln] enter
+16-11-2009 07:15:46 [thread0-initButtons] enter
+16-11-2009 07:15:46 [thread0-initButtons] leave [void]
+16-11-2009 07:15:46 [thread0-drawScreen] enter [stateMachine=2]
+16-11-2009 07:15:46 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawImage] enter
+16-11-2009 07:15:47 [thread0-drawImage] leave [void]
+16-11-2009 07:15:47 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-initLevel] enter
+16-11-2009 07:15:48 [thread0-initLevel] leave [void]
+16-11-2009 07:15:48 [thread0-initBall] enter
+16-11-2009 07:15:48 [thread0-initBall] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:48 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-initButtons] enter
+16-11-2009 07:15:48 [thread0-initButtons] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:48 [thread1-http_request] Date: Mon, 16 Nov 2009 05:14:00 GMT
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:48 [thread1-http_request] Server: Apache/2
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=45]
+16-11-2009 07:15:48 [thread1-http_request] Last-Modified: Fri, 18 Sep 2009 06:25:36 GMT
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=29]
+16-11-2009 07:15:48 [thread1-http_request] ETag: "1e8075a-d7a-3331b800"
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=21]
+16-11-2009 07:15:48 [thread1-http_request] Accept-Ranges: bytes
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=21]
+16-11-2009 07:15:48 [thread1-http_request] Content-Length: 3450
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:48 [thread1-http_request] Content-Type: text/html; charset=UTF-8
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:48 [thread1-http_request] 
+16-11-2009 07:15:48 [thread1-http_request] content_length=3450, status=200, linecount=8
+16-11-2009 07:15:48 [thread1-tcp_read] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:48 [thread1-http_request] leave [true]
+16-11-2009 07:15:48 [thread1-http_get_result] enter
+16-11-2009 07:15:48 [thread1-http_get_result] leave [true]
+16-11-2009 07:15:48 [thread1-http_convertHTMlToAscii] enter [inSize=3450]
+16-11-2009 07:15:48 [thread1-http_convertHTMlToAscii] in=<html>
+
+<head>
+   <title>Pong2 Release Notes</title>
+</head>
+
+<body>
+
+<h2>Known Issues</h2>
+
+<h3>None</h3>
+<p>
+None
+</p>
+
+</br>
+<h2>Development Log</h2>
+
+<h3>17/02/2009 Version 0.98 </h3>
+<p>
+- It took a long time but now pong2 support multi player mode.</br>
+- Build game with libogc 1.7.1 and devkitPPC r16 compiler.</br>
+</p>
+
+<h3>03/02/2009 Version 0.97 </h3>
+<p>
+- HotFix: Set start level to zero after each game.</br>
+- HotFix: Remove typo on help screen.</br>
+- Release notes screen is now showing information fetch from internet.</br>
+- Added up and down cursor event to scroll through release notes.</br>
+</p>
+
+<h3>01/02/2009 Version 0.96 </h3>
+<p>
+- Improve third intro screen.</br>
+- Added small game menu.</br>
+- Added credits screen.</br>
+- Improve help screen.</br>
+- Added release notes screen.</br>
+- Increase http receive buffer size to 8196 bytes.</br>
+- Use only one unique cookie number during the game.</br>
+- Split game logic, button events and screen output in source code.</br>
+</P?
+
+<h3>15/01/2009 Version 0.95 </h3>
+<p>
+- Update url on intro screens to www.plaatsoft.nl (My new domain).</br>
+- Improve intro screen positioning by PAL 50Hz TV mode.</br>
+- Network thread status is showed on screen.</br>
+- Game score is send anonymous to internet web services.</br>
+- Bugfix: Highscore is now always loaded correctly.</br>
+</p>
+
+<h3>20/12/2008 Version 0.94 </h3>
+<p>
+- Added SDHC card support</br>
+- Added power button support</br>
+- Added win screen if player wins all levels.</br>
+</p>
+
+<h3>02/12/2008 Version 0.93 </h3>
+<p>
+- Added google analytic http request</br>
+</p>
+
+<h3>22/11/2008 Version 0.92 </h3>
+<p>
+- Added check if new version is available</br>
+- Solved some minor reported bugs</br>
+- Added GNU GPL2 statement in source code</br>
+</p>
+
+<h3>12/11/2008 Version 0.91 </h3>
+<p>
+- Added high Score screen</br>
+- High scores are saved (.xml format) on your SD card.</br>
+- Added better game sound effects</br>
+</p>
+
+<h3>02/11/2008 Version 0.90 </h3>
+<p>
+- Added new welcome screens</br>
+- Improved game images</br>
+- Added help screen (Minus button)</br>
+- Created new homebrew game logo</br>
+</p>
+
+<h3>31/10/2008 Version 0.80 </h3>
+<p>
+- Added support for Wii Classic Controller</br>
+- Added two bars on the Game board (Game Level > 2 and higher)</br>
+- Added game level six</br>
+</p>
+
+<h3>27/10/2008 Version 0.70 </h3>
+<p>
+- Improved goodbye screen</br>
+- Added support for 60Hz screens</br>
+</p>
+
+<h3>23/10/2008 Version 0.60 </h3>
+<p>
+- Fixed two bugs in result screen</br>
+- Improved game images</br>
+- Replaced two music tracks</br>
+- Made source code available</br>
+</p>
+
+<h3>22/10/2008 Version 0.50 </h3>
+<p>
+- Added a game score overview screen</br>
+- Start ball position is random now</br>
+- Added (impossible) level five</br>
+</p>
+
+<h3>21/10/2008 Version 0.40 </h3>
+<p>
+- Added 4 game levels</br>
+- Improved game board layout</br>
+- Added game clock</br>
+- Added pause (+) button</br>
+</p>
+
+<h3>20/10/2008 Version 0.30 </h3>
+<p>
+- First release for public use</br>
+- Added a nice start screen</br>
+- Ball speed can now be controlled by A and B buttons</br>
+- 10 tracks of background music</br>
+- Music can be controlled by 1 and 2 button</br>
+</p>
+
+<h3>19/10/2008 Version 0.20 </h3>
+<p>
+- Improved paddle control</br>
+- Improve screen layout</br>
+</p>
+
+<h3>18/10/2008 Version 0.10 </h3>
+<p>
+- Started programming </br>
+- Build game with libogc 1.6.0 and devkitPPC r15 compiler</br>
+</p>
+
+</body>
+</html>
+
+
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_replaceString] enter
+16-11-2009 07:15:48 [thread1-http_convertHTMlToAscii] out=<html><head>   <title>Pong2 Release Notes
+</head><body>
+Known Issues
+
+None
+<p>None</p>
+
+Development Log
+
+17/02/2009 Version 0.98 
+<p>- It took a long time but now pong2 support multi player mode.
+- Build game with libogc 1.7.1 and devkitPPC r16 compiler.
+</p>
+03/02/2009 Version 0.97 
+<p>- HotFix: Set start level to zero after each game.
+- HotFix: Remove typo on help screen.
+- Release notes screen is now showing information fetch from internet.
+- Added up and down cursor event to scroll through release notes.
+</p>
+01/02/2009 Version 0.96 
+<p>- Improve third intro screen.
+- Added small game menu.
+- Added credits screen.
+- Improve help screen.
+- Added release notes screen.
+- Increase http receive buffer size to 8196 bytes.
+- Use only one unique cookie number during the game.
+- Split game logic, button events and screen output in source code.
+</P?
+15/01/2009 Version 0.95 
+<p>- Update url on intro screens to www.plaatsoft.nl (My new domain).
+- Improve intro screen positioning by PAL 50Hz TV mode.
+- Network thread status is showed on screen.
+- Game score is send anonymous to internet web services.
+- Bugfix: Highscore is now always loaded correctly.
+</p>
+20/12/2008 Version 0.94 
+<p>- Added SDHC card support
+- Added power button support
+- Added win screen if player wins all levels.
+</p>
+02/12/2008 Version 0.93 
+<p>- Added google analytic http request
+</p>
+22/11/2008 Version 0.92 
+<p>- Added check if new version is available
+- Solved some minor reported bugs
+- Added GNU GPL2 statement in source code
+</p>
+12/11/2008 Version 0.91 
+<p>- Added high Score screen
+- High scores are saved (.xml format) on your SD card.
+- Added better game sound effects
+</p>
+02/11/2008 Version 0.90 
+<p>- Added new welcome screens
+- Improved game images
+- Added help screen (Minus button)
+- Created new homebrew game logo
+</p>
+31/10/2008 Version 0.80 
+<p>- Added support for Wii Classic Controller
+- Added two bars on the Game board (Game Level > 2 and higher)
+- Added game level six
+</p>
+27/10/2008 Version 0.70 
+<p>- Improved goodbye screen
+- Added support for 60Hz screens
+</p>
+23/10/2008 Version 0.60 
+<p>- Fixed two bugs in result screen
+- Improved game images
+- Replaced two music tracks
+- Made source code available
+</p>
+22/10/2008 Version 0.50 
+<p>- Added a game score overview screen
+- Start ball position is random now
+- Added (impossible) level five
+</p>
+21/10/2008 Version 0.40 
+<p>- Added 4 game levels
+- Improved game board layout
+- Added game clock
+- Added pause (+) button
+</p>
+20/10/2008 Version 0.30 
+<p>- First release for public use
+- Added a nice start screen
+- Ball speed can now be controlled by A and B buttons
+- 10 tracks of background music
+- Music can be controlled by 1 and 2 button
+</p>
+19/10/2008 Version 0.20 
+<p>- Improved paddle control
+- Improve screen layout
+</p>
+18/10/2008 Version 0.10 
+<p>- Started programming 
+- Build game with libogc 1.6.0 and devkitPPC r15 compiler
+</p></body></h
+16-11-2009 07:15:48 [thread1-http_convertHTMlToAscii] leave [true]
+Pong2 Release Notes
+
+Kn16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+own Issues
+
+None
+
+
+Development Log
+
+17/02/2009 Version 0.98 
+- It took a long time but now pong2 support multi player mode.
+- Build game with libogc 1.7.1 and devkitPPC r16 compiler.
+
+03/02/2009 Version 0.97 
+- HotFix: Set start level to zero after each game.
+- HotFix: Remove typo on help screen.
+- Release notes screen is now showing information fetch from internet.
+- Added up and down cursor event to scroll through release notes.
+
+01/02/2009 Version 0.96 
+- Improve third intro screen.
+- Added small game menu.
+- Added credits screen.
+- Improve help screen.
+- Added release notes screen.
+- Increase http receive buffer size to 8196 bytes.
+- Use only one unique cookie number during the game.
+- Split game logic, button events and screen output in source code.
+- Update url on intro screens to www.plaatsoft.nl (My new domain).
+- Improve intro screen positioning by PAL 50Hz TV mode.
+- Network thread status is showed on screen.
+- Game score is send anonymous to internet web services.
+- Bugfix: Highscore is now always loaded correctly.
+
+20/12/2008 Version 0.94 
+- Added SDHC card support
+- Added power button support
+- Added win screen if player wins all levels.
+
+02/12/2008 Version 0.93 
+- Added google analytic http request
+
+22/11/2008 Version 0.92 
+- Added check if new version is available
+- Solved some minor reported bugs
+- Added GNU GPL2 statement in source code
+
+12/11/2008 Version 0.91 
+- Added high Score screen
+- High scores are saved (.xml format) on your SD card.
+- Added better game sound effects
+
+02/11/2008 Version 0.90 
+- Added new welcome screens
+- Improved game images
+- Added help screen (Minus button)
+- Created new homebrew game logo
+
+31/10/2008 Version 0.80 
+ 2 and higher)
+- Added game level six
+
+27/10/2008 Version 0.70 
+- Improved goodbye screen
+- Added support for 60Hz screens
+
+23/10/2008 Version 0.60 
+- Fixed two bugs in result screen
+- Improved game images
+- Replaced two music tracks
+- Made source code available
+
+22/10/2008 Version 0.50 
+- Added a game score overview screen
+- Start ball position is random now
+- Added (impossible) level five
+
+21/10/2008 Version 0.40 
+- Added 4 game levels
+- Improved game board layout
+- Added game clock
+- Added pause (+) button
+
+20/10/2008 Version 0.30 
+- First release for public use
+- Added a nice start screen
+- Ball speed can now be controlled by A and B buttons
+- 10 tracks of background music
+- Music can be controlled by 1 and 2 button
+
+19/10/2008 Version 0.20 
+- Improved paddle control
+- Improve screen layout
+
+18/10/2008 Version 0.10 
+- Started programming 
+- Build game with libogc 1.6.0 and devkitPPC r15 compiler
+16-11-2009 07:15:48 [thread1-tcp_thread] stateMachine=TCP_REQUEST2b
+16-11-2009 07:15:48 [thread1-http_split_url] enter
+16-11-2009 07:15:48 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] enter
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] domain=[www.plaatsoft.nl]
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] url=[/service/releasenotes1.html]
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] id=[UA-6887062-1]
+16-11-2009 07:15:48 [thread1-http_encode_url] enter
+16-11-2009 07:15:48 [thread1-http_encode_url] buf=[www.plaatsoft.nl]
+16-11-2009 07:15:48 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:48 [thread1-http_encode_url] enter
+16-11-2009 07:15:48 [thread1-http_encode_url] buf=[http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii]
+16-11-2009 07:15:48 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:48 [thread1-http_encode_url] enter
+16-11-2009 07:15:48 [thread1-http_encode_url] buf=[%2Fservice%2Freleasenotes1.html]
+16-11-2009 07:15:48 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:48 [thread1-http_encode_url] enter
+16-11-2009 07:15:48 [thread1-http_encode_url] buf=[WiiBrew%20Pong2%200.99]
+16-11-2009 07:15:48 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] utmac=[UA-6887062-1]
+16-11-2009 07:15:48 [thread1-http_encode_url] enter
+16-11-2009 07:15:48 [thread1-http_encode_url] buf=[Pong2%3D0.99]
+16-11-2009 07:15:48 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] buffer=http://www.google-analytics.com/__utm.gif?utmwv=1&utmn=1758355748&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Freleasenotes1.html&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355748.1258269348.1258442148.1258355748.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355748.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B
+16-11-2009 07:15:48 [thread1-http_googleAnalysicUrl] leave [void]
+16-11-2009 07:15:48 [thread1-http_request] enter
+16-11-2009 07:15:48 [thread1-http_split_url] enter
+16-11-2009 07:15:48 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:48 [thread1-tcp_connect] enter [host=www.google-analytics.com|port=80]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:48 [thread1-tcp_socket] enter
+16-11-2009 07:15:48 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:48 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:48 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:48 [thread1-tcp_connect] DNS resolve=74.125.77.139
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:48 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:48 [thread1-http_request] tcp_connect(www.google-analytics.com, 80) = 0
+16-11-2009 07:15:48 [thread1-http_request] request=GET /__utm.gif?utmwv=1&utmn=1758355748&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Freleasenotes1.html&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355748.1258269348.1258442148.1258355748.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355748.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:48 [thread1-tcp_write] enter [bufsize=704]
+16-11-2009 07:15:48 [thread1-tcp_write] buffer=GET /__utm.gif?utmwv=1&utmn=1758355748&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Freleasenotes1.html&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355748.1258269348.1258442148.1258355748.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355748.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:48 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:48 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:48 [thread1-http_request] Date: Mon, 16 Nov 2009 05:14:02 GMT
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=19]
+16-11-2009 07:15:48 [thread1-http_request] Content-Length: 35
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:48 [thread1-http_request] Pragma: no-cache
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=72]
+16-11-2009 07:15:48 [thread1-http_request] Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:48 [thread1-http_request] Expires: Wed, 19 Apr 2000 11:43:00 GMT
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=45]
+16-11-2009 07:15:48 [thread1-http_request] Last-Modified: Wed, 21 Jan 2004 19:50:30 GMT
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=24]
+16-11-2009 07:15:48 [thread1-http_request] Content-Type: image/gif
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=14]
+16-11-2009 07:15:48 [thread1-http_request] Server: Golfe
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=20]
+16-11-2009 07:15:48 [thread1-http_request] X-XSS-Protection: 0
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:48 [thread1-http_request] 
+16-11-2009 07:15:48 [thread1-http_request] content_length=35, status=200, linecount=10
+16-11-2009 07:15:48 [thread1-tcp_read] enter
+16-11-2009 07:15:48 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:48 [thread1-http_request] leave [true]
+16-11-2009 07:15:48 [thread1-http_get_result] enter
+16-11-2009 07:15:48 [thread1-http_get_result] leave [true]
+GIF89a  €ÿ ÿÿÿ   ,       D ;16-11-2009 07:15:48 [thread1-tcp_thread] stateMachine=TCP_REQUEST3a
+16-11-2009 07:15:48 [thread1-http_request] enter
+16-11-2009 07:15:48 [thread1-http_split_url] enter
+16-11-2009 07:15:48 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:48 [thread1-tcp_connect] enter [host=www.plaatsoft.nl|port=80]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:48 [thread1-tcp_socket] enter
+16-11-2009 07:15:48 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:48 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:48 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:48 [thread1-tcp_connect] DNS resolve=85.158.203.157
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:48 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:48 [thread1-http_request] tcp_connect(www.plaatsoft.nl, 80) = 0
+16-11-2009 07:15:48 [thread1-http_request] request=GET /service/score_set.php?appl=Pong2 HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:48 [thread1-tcp_write] enter [bufsize=205]
+16-11-2009 07:15:48 [thread1-tcp_write] buffer=GET /service/score_set.php?appl=Pong2 HTTP/1.1
+Host: www.plaatsoft.nl
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:48 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:48 [thread1-tcp_readln] enter
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:48 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:48 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:49 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:49 [thread1-http_request] Date: Mon, 16 Nov 2009 05:14:02 GMT
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:49 [thread1-http_request] Server: Apache/2
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=35]
+16-11-2009 07:15:49 [thread1-http_request] X-Powered-By: PHP/5.2.9-0.dotdeb.1
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=27]
+16-11-2009 07:15:49 [thread1-http_request] Transfer-Encoding: chunked
+16-11-2009 07:15:49 [thread1-http_request] Chunked frame found
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:49 [thread1-http_request] Content-Type: text/html; charset=UTF-8
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:49 [thread1-http_request] 
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:49 [thread1-tcp_readln] leave [bufsize=4]
+16-11-2009 07:15:49 [thread1-http_request] 20f
+16-11-2009 07:15:49 [thread1-http_request] content_length=527, status=200, linecount=7
+16-11-2009 07:15:49 [thread1-tcp_read] enter
+16-11-2009 07:15:49 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:49 [thread1-http_request] leave [true]
+16-11-2009 07:15:49 [thread1-http_get_result] enter
+16-11-2009 07:15:49 [thread1-http_get_result] leave [true]
+<?xml version='1.0'?>
+<highscore>
+<item1 name='CA (Edmonton)' level='2' score='132' dt='1232931426' location='' />
+<item2 name='US (Anaheim)' level='0' score='121' dt='1232928398' location='' />
+<item3 name='FR (Beaurevoir)' level='0' score='104' dt='1232997467' location='' />
+<item4 name='FI (Luvia)' level='0' score='95' dt='1233001779' location='' />
+<item5 name='FR (Dijon)' level='0' score='71' dt='1232984615' location='' />
+<item6 name='CA (Edmonton)' level='0' score='68' dt='1232931065' location='' />
+</highscore>
+16-11-2009 07:15:49 [thread1-tcp_thread] stateMachine=TCP_REQUEST3b
+16-11-2009 07:15:49 [thread1-http_split_url] enter
+16-11-2009 07:15:49 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] enter
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] domain=[www.plaatsoft.nl]
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] url=[/service/score_set.php]
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] id=[UA-6887062-1]
+16-11-2009 07:15:49 [thread1-http_encode_url] enter
+16-11-2009 07:15:49 [thread1-http_encode_url] buf=[www.plaatsoft.nl]
+16-11-2009 07:15:49 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:49 [thread1-http_encode_url] enter
+16-11-2009 07:15:49 [thread1-http_encode_url] buf=[http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii]
+16-11-2009 07:15:49 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:49 [thread1-http_encode_url] enter
+16-11-2009 07:15:49 [thread1-http_encode_url] buf=[%2Fservice%2Fscore%5Fset.php]
+16-11-2009 07:15:49 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:49 [thread1-http_encode_url] enter
+16-11-2009 07:15:49 [thread1-http_encode_url] buf=[WiiBrew%20Pong2%200.99]
+16-11-2009 07:15:49 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] utmac=[UA-6887062-1]
+16-11-2009 07:15:49 [thread1-http_encode_url] enter
+16-11-2009 07:15:49 [thread1-http_encode_url] buf=[Pong2%3D0.99]
+16-11-2009 07:15:49 [thread1-http_encode_url] leave [char *]
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] buffer=http://www.google-analytics.com/__utm.gif?utmwv=1&utmn=1758355749&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Fscore%5Fset.php&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355749.1258269349.1258442149.1258355749.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355749.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B
+16-11-2009 07:15:49 [thread1-http_googleAnalysicUrl] leave [void]
+16-11-2009 07:15:49 [thread1-http_request] enter
+16-11-2009 07:15:49 [thread1-http_split_url] enter
+16-11-2009 07:15:49 [thread1-http_split_url] leave [true]
+16-11-2009 07:15:49 [thread1-tcp_connect] enter [host=www.google-analytics.com|port=80]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread1-tcp_connect] net_gethostbyname successfull resolved
+16-11-2009 07:15:49 [thread1-tcp_socket] enter
+16-11-2009 07:15:49 [thread1-tcp_socket] net_socket succesfull
+16-11-2009 07:15:49 [thread1-tcp_socket] leave [0]
+16-11-2009 07:15:49 [thread1-tcp_connect] tcp_socket succesfull
+16-11-2009 07:15:49 [thread1-tcp_connect] DNS resolve=74.125.77.139
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:49 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:49 [thread1-tcp_connect] net_connect succesfull
+16-11-2009 07:15:49 [thread1-tcp_connect] leave [0]
+16-11-2009 07:15:49 [thread1-http_request] tcp_connect(www.google-analytics.com, 80) = 0
+16-11-2009 07:15:49 [thread1-http_request] request=GET /__utm.gif?utmwv=1&utmn=1758355749&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Fscore%5Fset.php&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355749.1258269349.1258442149.1258355749.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355749.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:49 [thread1-tcp_write] enter [bufsize=701]
+16-11-2009 07:15:49 [thread1-tcp_write] buffer=GET /__utm.gif?utmwv=1&utmn=1758355749&utmcs=UTF-8&utmsr=640x528&utmsc=32-bit&utmul=en&utmje=1&utmfl=&utmcr=1&utmdt=WiiBrew%20Pong2%200.99&utmhn=www.plaatsoft.nl&utmr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DPong2%2BWii&utmp=%2Fservice%2Fscore%5Fset.php&utmac=UA-6887062-1&utmcc=__utma=58346627.1358355749.1258269349.1258442149.1258355749.3%3B%2B__utmb=58346627%3B%2B__utmc=58346627%3B%2B__utmz=58346627.1258355749.3.2.utmccn=(direct)%3Dutmcsr=(direct)%3Dutmctr=(none)%3Dutmcmd=(none)%3B%2B__utmv%3D58346627.Pong2%3D0.99%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Pong2/0.99 (compatible; v3.X; Nintendo Wii)
+Accept: text/xml,text/html,text/plain,image/gif
+Cache-Control: no-cache
+
+
+16-11-2009 07:15:49 [thread1-tcp_write] leave [left=0]
+16-11-2009 07:15:49 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=16]
+16-11-2009 07:15:50 [thread1-http_request] HTTP/1.1 200 OK
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=36]
+16-11-2009 07:15:50 [thread1-http_request] Date: Mon, 16 Nov 2009 05:14:03 GMT
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=19]
+16-11-2009 07:15:50 [thread1-http_request] Content-Length: 35
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=17]
+16-11-2009 07:15:50 [thread1-http_request] Pragma: no-cache
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [void]
+16-11-2009 07:15:50 [thread1-http_request] Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=39]
+16-11-2009 07:15:50 [thread1-http_request] Expires: Wed, 19 Apr 2000 11:43:00 GMT
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=45]
+16-11-2009 07:15:50 [thread1-http_request] Last-Modified: Wed, 21 Jan 2004 19:50:30 GMT
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=24]
+16-11-2009 07:15:50 [thread1-http_request] Content-Type: image/gif
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=14]
+16-11-2009 07:15:50 [thread1-http_request] Server: Golfe
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=20]
+16-11-2009 07:15:50 [thread1-http_request] X-XSS-Protection: 0
+16-11-2009 07:15:50 [thread1-tcp_readln] enter
+16-11-2009 07:15:50 [thread1-tcp_readln] leave [bufsize=1]
+16-11-2009 07:15:50 [thread1-http_request] 
+16-11-2009 07:15:50 [thread1-http_request] content_length=35, status=200, linecount=10
+16-11-2009 07:15:50 [thread1-tcp_read] enter
+16-11-2009 07:15:50 [thread1-tcp_read] leave [left=0]
+16-11-2009 07:15:50 [thread1-http_request] leave [true]
+16-11-2009 07:15:50 [thread1-http_get_result] enter
+16-11-2009 07:15:50 [thread1-http_get_result] leave [true]
+GIF89a  €ÿ ÿÿÿ   ,       D ;16-11-2009 07:15:50 [thread1-tcp_thread] stateMachine=TCP_IDLE
+16-11-2009 07:15:50 [thread1-tcp_sleep] enter [wait=2 sec]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-initBall] enter
+16-11-2009 07:15:50 [thread0-initBall] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:50 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:50 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:51 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:51 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread1-tcp_sleep] leave [void]
+16-11-2009 07:15:52 [thread1-tcp_thread] stateMachine=TCP_IDLE
+16-11-2009 07:15:52 [thread1-tcp_sleep] enter [wait=2 sec]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=1]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:52 [thread0-initButtons] enter
+16-11-2009 07:15:52 [thread0-initButtons] leave [void]
+16-11-2009 07:15:52 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:52 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:52 [thread0-drawImage] enter
+16-11-2009 07:15:52 [thread0-drawImage] leave [void]
+16-11-2009 07:15:52 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:53 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:53 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:53 [thread0-drawImage] enter
+16-11-2009 07:15:53 [thread0-drawImage] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:53 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:53 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:53 [thread0-drawImage] enter
+16-11-2009 07:15:53 [thread0-drawImage] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:53 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:53 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:53 [thread0-drawImage] enter
+16-11-2009 07:15:53 [thread0-drawImage] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:53 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:53 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:53 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:53 [thread0-drawImage] enter
+16-11-2009 07:15:54 [thread0-drawImage] leave [void]
+16-11-2009 07:15:54 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:54 [thread1-tcp_sleep] leave [void]
+16-11-2009 07:15:54 [thread1-tcp_thread] stateMachine=TCP_IDLE
+16-11-2009 07:15:54 [thread1-tcp_sleep] enter [wait=2 sec]
+16-11-2009 07:15:54 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:54 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:54 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:54 [thread0-drawImage] enter
+16-11-2009 07:15:54 [thread0-drawImage] leave [void]
+16-11-2009 07:15:54 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:54 [thread0-initButtons] enter
+16-11-2009 07:15:54 [thread0-initButtons] leave [void]
+16-11-2009 07:15:54 [thread0-drawScreen] enter [stateMachine=9]
+16-11-2009 07:15:54 [thread0-drawImage] enter
+16-11-2009 07:15:54 [thread0-drawImage] leave [void]
+16-11-2009 07:15:54 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:54 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:54 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] enter
+16-11-2009 07:15:56 [thread0-drawReleaseNotes] leave [void]
+16-11-2009 07:15:57 [thread1-tcp_sleep] leave [void]
+16-11-2009 07:15:57 [thread1-tcp_thread] stateMachine=TCP_IDLE
+16-11-2009 07:15:57 [thread1-tcp_sleep] enter [wait=2 sec]
+16-11-2009 07:15:57 [thread0-initButtons] enter
+16-11-2009 07:15:57 [thread0-initButtons] leave [void]
+16-11-2009 07:15:57 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:57 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:57 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:57 [thread0-drawImage] enter
+16-11-2009 07:15:57 [thread0-drawImage] leave [void]
+16-11-2009 07:15:57 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:59 [thread0-initReleaseNotes] enter
+16-11-2009 07:15:59 [thread0-initReleaseNotes] leave [void]
+16-11-2009 07:15:59 [thread0-drawScreen] enter [stateMachine=0]
+16-11-2009 07:15:59 [thread0-drawImage] enter
+16-11-2009 07:15:59 [thread0-drawImage] leave [void]
+16-11-2009 07:15:59 [thread0-drawScreen] leave [void]
+16-11-2009 07:15:59 [thread0-drawImage] enter
+16-11-2009 07:15:59 [thread0-drawImage] leave [void]
+16-11-2009 07:15:59 [thread0-exitGame] enter
+16-11-2009 07:15:59 [thread1-tcp_stop_thread] enter
+16-11-2009 07:15:59 [thread1-tcp_stop_thread] leave [0]
+16-11-2009 07:15:59 [thread0-exitGame] Go back to Homebrew Channel
+16-11-2009 07:15:59 [thread0-exitGame] Pong2 0.99 Stopped
+16-11-2009 07:15:59 [thread0-exitGame] leave [void]
