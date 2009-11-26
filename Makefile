@@ -3,14 +3,14 @@
 # Template makefile
 #---------------------------------------------------------------------------------
 
-export	LIBJPEG_INC	:=	$(DEVKITPRO)/libjpeg/include
-export	LIBJPEG_LIB	:=	$(DEVKITPRO)/libjpeg/lib/wii
+export	LIBJPEG_INC	:=	../lib/jpeg/include
+export	LIBJPEG_LIB	:=	../lib/jpeg/lib/wii
 
-export	LIBXML_INC	:=	$(DEVKITPRO)/libmxml/include
-export	LIBXML_LIB	:=	$(DEVKITPRO)/libmxml/lib
+export	LIBXML_INC	:=	../lib/mxml/include
+export	LIBXML_LIB	:=	../lib/mxml/lib
 
-export	FREETYPE_INC :=	$(DEVKITPRO)/freetype/include
-export	FREETYPE_LIB :=	$(DEVKITPRO)/freetype/lib/wii
+export	FREETYPE_INC :=	../lib/freetype/include
+export	FREETYPE_LIB :=	../lib/freetype/lib/wii
 
 .SUFFIXES:
 #---------------------------------------------------------------------------------
