@@ -3,7 +3,7 @@
  * Welcome to the Pong2 documentation.
  *
  * @section Introduction
- * Pong2 is a 2D classic game for the Nintedo Wii.
+ * Pong2 is a 2D classic game for the Nintendo Wii.
  *
  * @section Links
  * Website: http://www.plaatsoft.nl\n
@@ -11,6 +11,138 @@
  *
  * @section Credits
  * Documentation  : wplaat\n
+ *
+ * @section WishList
+ *
+ *   - Use GRRLIB as grapical engine.
+ *   - Add support for GameCube controller.
+ *
+ * @section ReleaseNotes
+ *
+ *   XX-XX-XXXX Version 1.0 (Up coming release)
+ *   - Added source code to Google Code Repository
+ *   - Added source code documentation (Javadoc style).
+ *   - Added Doxygen (automatic documentation generation tool) config file. 
+ *
+ *   15-11-2009 Version 0.99
+ *   - Maintenance release.
+ *   - Added functionality to trace game debug events to file.
+ *   - Use the asndlib (part of libogc) now as standard sound engine.
+ *   - Improve network thread.
+ *   - Upgrade libmxml library to 2.6.
+ *   - Upgrade libfat library to 1.0.6.
+ *   - Upgrade libogc library to 1.8.0.
+ *   - Build game with devkitPPC r19 compiler.
+ *
+ *   17-02-2009 Version 0.98
+ *   - It took a long time but now pong2 support multi player mode.
+ *   - Build game with devkitPPC r16 compiler.
+ *
+ *   03-02-2009 Version 0.97
+ *   - HotFix: Set start level to zero each first game.
+ *   - HotFix: Remove typo on help screen.
+ *   - Release notes screen is now showing information fetch from internet.
+ *   - Added up and down cursor event to scroll through release notes.
+ *   - Build game with devkitPPC r16 compiler.
+ * 
+ *   01-02-2009 Version 0.96
+ *   - Improve third intro screen.
+ *   - Added small game menu.
+ *   - Added credits screen
+ *   - Improve help screen.
+ *   - Added release notes screen.
+ *   - Increase http receive buffer size to 8196 bytes.
+ *   - Use only one unique cookie number during the game.
+ *   - Split game logic, button events and screen output in source code.
+ *   - Build game with devkitPPC r16 compiler.
+ *
+ *   15-01-2009 Version 0.95
+ *   - Update url on intro screens to www.plaatsoft.nl (My new domain).
+ *   - Improve intro screen positioning by PAL 50Hz TV mode.
+ *   - Network thread status is showed on screen.
+ *   - Bugfix: Highscore is now always loaded correctly.
+ *   - Build game with devkitPPC r16 compiler.
+ *
+ *   20-12-2008 Version 0.94
+ *   - Added SDHC card support.
+ *   - Added power down button support.
+ *   - Added win screen if players wins all levels.
+ *   - Update ligogc library to 1.7.1
+ *   - Build game with devkitPPC r16 compiler.
+ *
+ *   02-12-2008 Version 0.93
+ *   - Improve http (new version check) thread.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   21-11-2008 Version 0.92
+ *   - Added threaded network check for new version.
+ *   - Solved some minor reported bugs.
+ *   - Added GNU GPL2 statement in source code.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   12-11-2008 Version 0.91
+ *   - Added high Score screen.
+ *   - High scores are saved (.xml format) on your SD card.
+ *   - Added better game sound effects.
+ *   - Build game with devkitPPC r15 compiler.
+ *   
+ *   02-11-2008 Version 0.90   
+ *   - Added new welcome screens.
+ *   - Improved game images.
+ *   - Added help screen (Minus button).
+ *   - Created new homebrew game logo.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   31-10-2008 Version 0.80
+ *   - Added support for Wii Classic Controller.
+ *   - Added two bars on the Game board (Game Level > 2 and higher).
+ *   - Added game level six.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   27-10-2008 Version 0.70
+ *   - Improved goodbye screen.
+ *   - Added support for 60Hz screens.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   23-10-2008 Version 0.60
+ *   - Fixed two bugs in result screen.
+ *   - Improved game images.
+ *   - Replaced two music tracks.
+ *   - Made source code available.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   22-10-2008 Version 0.50
+ *   - Added a game score overview screen.
+ *   - Start ball position is random now.
+ *   - Added (impossible) level five.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   21-10-2008 Version 0.40
+ *   - Added 4 game levels.
+ *   - Improved game board layout.
+ *   - Added game clock.
+ *   - Added pause (+) button.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   20-10-2008 Version 0.30
+ *   - First release for public use.
+ *   - Added a nice start screen.
+ *   - Ball speed can now be controlled by A and B buttons.
+ *   - 10 tracks of background music added.
+ *   - Music track can be controlled with 1 and 2 button.
+ *   - Build game with devkitPPC r15 compiler.
+ *   
+ *   19-10-2008 Version 0.20
+ *   - Improved paddle control.
+ *   - Improve screen layout.
+ *   - Build game with devkitPPC r15 compiler.
+ *
+ *   18-10-2008 Version 0.10
+ *   - Started programming.
+ *   - Gameboard ready.
+ *   - Basic game logic ready.
+ *   - Use libogc 1.6.0 as Wii Interface library
+ *   - Build game with devkitPPC r15 compiler.
  *
  * @section Licence
  * Copyright (c) 2008-2010 Plaatsoft

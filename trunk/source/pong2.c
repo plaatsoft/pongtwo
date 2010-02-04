@@ -1,142 +1,25 @@
-/* 
-**  Created by wplaat (www.plaatsoft.nl)
-**	
-**  Copyright (C) 2008-2009
-**  =======================
-**
-**  This program is free software; you can redistribute it and/or modify
-**  it under the terms of the GNU General Public License as published by
-**  the Free Software Foundation, version 2.
-**
-**  This program is distributed in the hope that it will be useful,
-**  but WITHOUT ANY WARRANTY; without even the implied warranty of
-**  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-**  GNU General Public License for more details.
-**
-**  You should have received a copy of the GNU General Public License
-**  along with this program; if not, write to the Free Software
-**  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-**
-**  Release Notes:
-**  ==============
-**
-**   15/11/2009 Version 0.99
-**   - Maintenance release
-**   - Added functionality to trace game debug events to file.
-**   - Use the asndlib (part of libogc) now as standard sound engine.
-**   - Improve network thread
-**   - Upgrade libmxml library to 2.6
-**   - Upgrade libfat library to 1.0.6.
-**   - Build game with libogc 1.8.0 and devkitPPC r19 compiler
-**
-**   17/02/2009 Version 0.98
-**   - It took a long time but now pong2 support multi player mode.
-**   - Build game with libogc 1.7.1 and devkitPPC r16 compiler
-**
-**   03/02/2009 Version 0.97
-**   - HotFix: Set start level to zero each first game.
-**   - HotFix: Remove typo on help screen.
-**   - Release notes screen is now showing information fetch from internet.
-**   - Added up and down cursor event to scroll through release notes.
-**   - Build game with libogc 1.7.1 and devkitPPC r16 compiler
-** 
-**   01/02/2009 Version 0.96
-**   - Improve third intro screen.
-**   - Added small game menu.
-**   - Added credits screen
-**   - Improve help screen.
-**   - Added release notes screen.
-**   - Increase http receive buffer size to 8196 bytes.
-**   - Use only one unique cookie number during the game.
-**   - Split game logic, button events and screen output in source code.
-**   - Build game with libogc 1.7.1 and devkitPPC r16 compiler
-**
-**   15/01/2009 Version 0.95
-**   - Update url on intro screens to www.plaatsoft.nl (My new domain).
-**   - Improve intro screen positioning by PAL 50Hz TV mode.
-**   - Network thread status is showed on screen.
-**   - Bugfix: Highscore is now always loaded correctly.
-**   - Build game with libogc 1.7.1 and devkitPPC r16 compiler.
-**
-**   20/12/2008 Version 0.94
-**   - Added SDHC card support.
-**   - Added power down button support.
-**   - Added win screen if players wins all levels.
-**   - Build game with new libogc 1.7.1 and devkitPPC r16 compiler
-**
-**   02/12/2008 Version 0.93
-**   - Improve http (new version check) thread.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler
-**
-**   21/11/2008 Version 0.92
-**   - Added threaded network check for new version.
-**   - Solved some minor reported bugs.
-**   - Added GNU GPL2 statement in source code.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler
-**
-**   12/11/2008 Version 0.91
-**   - Added high Score screen.
-**   - High scores are saved (.xml format) on your SD card.
-**   - Added better game sound effects.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler
-**   
-**   02/11/2008 Version 0.90   
-**   - Added new welcome screens.
-**   - Improved game images.
-**   - Added help screen (Minus button).
-**   - Created new homebrew game logo.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler
-**
-**   31/10/2008 Version 0.80
-**   - Added support for Wii Classic Controller.
-**   - Added two bars on the Game board (Game Level > 2 and higher).
-**   - Added game level six.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   27/10/2008 Version 0.70
-**   - Improved goodbye screen.
-**   - Added support for 60Hz screens.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   23/10/2008 Version 0.60
-**   - Fixed two bugs in result screen.
-**   - Improved game images.
-**   - Replaced two music tracks.
-**   - Made source code available.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   22/10/2008 Version 0.50
-**   - Added a game score overview screen.
-**   - Start ball position is random now.
-**   - Added (impossible) level five.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   21/10/2008 Version 0.40
-**   - Added 4 game levels.
-**   - Improved game board layout.
-**   - Added game clock.
-**   - Added pause (+) button.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   20/10/2008 Version 0.30
-**   - First release for public use.
-**   - Added a nice start screen.
-**   - Ball speed can now be controlled by A and B buttons.
-**   - 10 tracks of background music added.
-**   - Music track can be controlled with 1 and 2 button.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**   
-**   19/10/2008 Version 0.20
-**   - Improved paddle control.
-**   - Improve screen layout.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-**
-**   18/10/2008 Version 0.10
-**   - Started programming.
-**   - Gameboard ready.
-**   - Badic game logic ready.
-**   - Build game with libogc 1.6.0 and devkitPPC r15 compiler.
-*/
+/**  
+ *  @file
+ *  Wii Pong2 game core
+ *
+ *  Created by wplaat (www.plaatsoft.nl)
+ *
+ *  Copyright (C) 2008-2010
+ *  =======================
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, version 2.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
 
 #include <stdio.h>
 #include <gccore.h>
