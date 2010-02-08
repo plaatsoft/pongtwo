@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  Wii http network ule
+ *  @brief The file contain the Http (network) methodes
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *

@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  Wii Pong2 game core
+ *  @brief The file contain the Pong2 game core
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *
