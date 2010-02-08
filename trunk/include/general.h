@@ -1,5 +1,10 @@
 /**
+ *
+ * @file
+ * @brief The file contain the general defines
+ *
  * @mainpage Wii Pong2 Documentation
+ * @image html pong2.png
  * Welcome to the Pong2 documentation.
  *
  * @section Introduction

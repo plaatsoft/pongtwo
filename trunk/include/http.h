@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  HTTP network thread include file
+ *  @brief HTTP network thread include file
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *

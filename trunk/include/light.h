@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  Wii Light include file
+ *  @brief Wii Light include file
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *

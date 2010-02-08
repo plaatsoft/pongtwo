@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  Wii trace module
+ *  @brief The file contain the trace methodes
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *

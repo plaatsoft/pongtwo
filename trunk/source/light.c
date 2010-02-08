@@ -1,6 +1,6 @@
 /**  
  *  @file
- *  Wii light module
+ *  @brief The file contain the Wii lights methodes
  *
  *  Created by wplaat (www.plaatsoft.nl)
  *
