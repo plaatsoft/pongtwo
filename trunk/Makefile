@@ -9,9 +9,6 @@ export	LIBJPEG_LIB	:=	../lib/jpeg/lib/wii
 export	LIBXML_INC	:=	../lib/mxml/include
 export	LIBXML_LIB	:=	../lib/mxml/lib
 
-export	FREETYPE_INC :=	../lib/freetype/include
-export	FREETYPE_LIB :=	../lib/freetype/lib/wii
-
 .SUFFIXES:
 #---------------------------------------------------------------------------------
 ifeq ($(strip $(DEVKITPPC)),)
@@ -26,11 +23,11 @@ include $(DEVKITPPC)/wii_rules
 # SOURCES is a list of directories containing source code
 # INCLUDES is a list of directories containing extra header files
 #---------------------------------------------------------------------------------
-TARGET		:=	$(notdir $(CURDIR))
-BUILD		:=	build
+TARGET		:=	boot
+BUILD			:=	build
 SOURCES		:=	source
-DATA		:=	snd
-INCLUDES	:=  include
+DATA			:=	snd
+INCLUDES		:= include
 IMAGES		:=	images
 
 #---------------------------------------------------------------------------------
@@ -47,7 +44,7 @@ LDFLAGS	=	-g $(MACHDEP) -mrvl -Wl,-Map,$(notdir $@).map
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:=  -lfreetype -lz -lmodplay -lfat -lmxml -lwiiuse -lbte -lasnd -logc -lwiiuse -ljpeg -lm
+LIBS	:=  -lz -lmodplay -lfat -lmxml -lwiiuse -lbte -lasnd -logc -lwiiuse -ljpeg -lm
 
 #---------------------------------------------------------------------------------
 # list of directories containing libraries, this must be the top level containing
@@ -100,8 +97,8 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES), -iquote $(CURDIR)/$(dir)) \
 					-I$(CURDIR)/$(BUILD) \
 					-I$(LIBOGC_INC) \
 					-I$(LIBJPEG_INC) \
-					-I$(LIBXML_INC) \
-					-I$(FREETYPE_INC)
+					-I$(LIBXML_INC) 
+					
 
 					
 #---------------------------------------------------------------------------------
@@ -110,8 +107,8 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES), -iquote $(CURDIR)/$(dir)) \
 export LIBPATHS	:=	$(foreach dir,$(LIBDIRS), -L$(dir)/lib) \
 					-L$(LIBOGC_LIB) \
 					-L$(LIBJPEG_LIB) \
-					-L$(LIBXML_LIB) \
-					-L$(FREETYPE_LIB)
+					-L$(LIBXML_LIB) 
+				
 				
 export OUTPUT	:=	$(CURDIR)/$(TARGET)
 .PHONY: $(BUILD) clean
