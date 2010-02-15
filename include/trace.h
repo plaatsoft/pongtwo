@@ -1,11 +1,9 @@
-/**  
+/** 
  *  @file
  *  @brief Wii trace include file
+ *  @author wplaat
  *
- *  Created by wplaat (www.plaatsoft.nl)
- *
- *  Copyright (C) 2008-2010
- *  =======================
+ *  Copyright (C) 2008-2010 PlaatSoft
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -21,8 +19,38 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
+#ifndef __TRACE_H__
+#define __TRACE_H__
 
+/**
+ * Create trace file
+ * @param filename  The filename of the trace file
+ */
 int traceOpen(char *filename);
-int traceEvent( char *functionName, int threadNr, char *event, ...);
-int traceEventRaw( char character);
+
+
+/**
+ * Close trace file
+ */
 int traceClose();
+ 
+/**
+ * Save trace event in trace file
+ * @param functionName	The functionName
+ * @param threadNr		The thread number [0=main thread, 1=network thread]
+ * @param event			The event discription
+ * @param ...				Optional parameters.
+ * @return Zero is succesful.
+ */ 
+int traceEvent( char *functionName, int threadNr, char *event, ...);
+
+
+/**
+ * Save trace event in trace file.
+ * @param character	The character range between 0...255
+ * @return Zero is succesful.
+ */ 
+int traceEventRaw( char character);
+
+
+#endif
