@@ -18,39 +18,51 @@
  * Documentation  : wplaat\n
  *
  * @section WishList
- *
  *   - Use GRRLIB as grapical engine.
  *   - Add support for GameCube controller.
  *
  * @section ReleaseNotes
+ *   <b>XX-XX-XXXX Version 1.0 (Up coming release)</b>
+ *   - GUI:
+ *    - Update main menu screen information.
+ *   - Core:
+ *    - Improve network thread.
+ *   - General:
+ *    - Added source code to Google Code Repository
+ *    - Added source code documentation (Javadoc style).
+ *    - Added Doxygen (automatic documentation generation tool) config file. 
+ *    - Build game with devkitPPC r19 compiler.
  *
- *   XX-XX-XXXX Version 1.0 (Up coming release)
- *   - Added source code to Google Code Repository
- *   - Added source code documentation (Javadoc style).
- *   - Added Doxygen (automatic documentation generation tool) config file. 
+ *   <b>15-11-2009 Version 0.99</b>
+ *   - GUI:
+ *    - Update main menu screen information.
+ *   - Core:
+ *    - Added functionality to trace game debug events to file.
+ *    - Use the asndlib (part of libogc) now as standard sound engine.
+ *    - Improve network thread.
+ *    - Upgrade libmxml library to 2.6.
+ *    - Upgrade libfat library to 1.0.6.
+ *    - Upgrade libogc library to 1.8.0.
+ *   - General:
+ *    - Maintenance release.
+ *    - Build game with devkitPPC r19 compiler.
  *
- *   15-11-2009 Version 0.99
- *   - Maintenance release.
- *   - Added functionality to trace game debug events to file.
- *   - Use the asndlib (part of libogc) now as standard sound engine.
- *   - Improve network thread.
- *   - Upgrade libmxml library to 2.6.
- *   - Upgrade libfat library to 1.0.6.
- *   - Upgrade libogc library to 1.8.0.
- *   - Build game with devkitPPC r19 compiler.
+ *   <b>17-02-2009 Version 0.98</b>
+ *    - GUI:
+ *     - Update main menu screen information.
+ *    - Core:
+ *     - It took a long time but now pong2 support multi player mode.
+ *    - General:
+ *     - Build game with devkitPPC r16 compiler.
  *
- *   17-02-2009 Version 0.98
- *   - It took a long time but now pong2 support multi player mode.
- *   - Build game with devkitPPC r16 compiler.
- *
- *   03-02-2009 Version 0.97
+ *   <b>03-02-2009 Version 0.97</b>
  *   - HotFix: Set start level to zero each first game.
  *   - HotFix: Remove typo on help screen.
  *   - Release notes screen is now showing information fetch from internet.
  *   - Added up and down cursor event to scroll through release notes.
  *   - Build game with devkitPPC r16 compiler.
  * 
- *   01-02-2009 Version 0.96
+ *   <b>01-02-2009 Version 0.96</b>
  *   - Improve third intro screen.
  *   - Added small game menu.
  *   - Added credits screen
@@ -61,75 +73,75 @@
  *   - Split game logic, button events and screen output in source code.
  *   - Build game with devkitPPC r16 compiler.
  *
- *   15-01-2009 Version 0.95
+ *   <b>15-01-2009 Version 0.95</b>
  *   - Update url on intro screens to www.plaatsoft.nl (My new domain).
  *   - Improve intro screen positioning by PAL 50Hz TV mode.
  *   - Network thread status is showed on screen.
  *   - Bugfix: Highscore is now always loaded correctly.
  *   - Build game with devkitPPC r16 compiler.
  *
- *   20-12-2008 Version 0.94
+ *   <b>20-12-2008 Version 0.94</b>
  *   - Added SDHC card support.
  *   - Added power down button support.
  *   - Added win screen if players wins all levels.
  *   - Update ligogc library to 1.7.1
  *   - Build game with devkitPPC r16 compiler.
  *
- *   02-12-2008 Version 0.93
+ *   <b>02-12-2008 Version 0.93</b>
  *   - Improve http (new version check) thread.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   21-11-2008 Version 0.92
+ *   <b>21-11-2008 Version 0.92</b>
  *   - Added threaded network check for new version.
  *   - Solved some minor reported bugs.
  *   - Added GNU GPL2 statement in source code.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   12-11-2008 Version 0.91
+ *   <b>12-11-2008 Version 0.91</b>
  *   - Added high Score screen.
  *   - High scores are saved (.xml format) on your SD card.
  *   - Added better game sound effects.
  *   - Build game with devkitPPC r15 compiler.
  *   
- *   02-11-2008 Version 0.90   
+ *   <b>02-11-2008 Version 0.90</b>
  *   - Added new welcome screens.
  *   - Improved game images.
  *   - Added help screen (Minus button).
  *   - Created new homebrew game logo.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   31-10-2008 Version 0.80
+ *   <b>31-10-2008 Version 0.80</b>
  *   - Added support for Wii Classic Controller.
  *   - Added two bars on the Game board (Game Level > 2 and higher).
  *   - Added game level six.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   27-10-2008 Version 0.70
+ *   <b>27-10-2008 Version 0.70</b>
  *   - Improved goodbye screen.
  *   - Added support for 60Hz screens.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   23-10-2008 Version 0.60
+ *   <b>23-10-2008 Version 0.60</b>
  *   - Fixed two bugs in result screen.
  *   - Improved game images.
  *   - Replaced two music tracks.
  *   - Made source code available.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   22-10-2008 Version 0.50
+ *   <b>22-10-2008 Version 0.50</b>
  *   - Added a game score overview screen.
  *   - Start ball position is random now.
  *   - Added (impossible) level five.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   21-10-2008 Version 0.40
+ *   <b>21-10-2008 Version 0.40</b>
  *   - Added 4 game levels.
  *   - Improved game board layout.
  *   - Added game clock.
  *   - Added pause (+) button.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   20-10-2008 Version 0.30
+ *   <b>20-10-2008 Version 0.30</b>
  *   - First release for public use.
  *   - Added a nice start screen.
  *   - Ball speed can now be controlled by A and B buttons.
@@ -137,12 +149,12 @@
  *   - Music track can be controlled with 1 and 2 button.
  *   - Build game with devkitPPC r15 compiler.
  *   
- *   19-10-2008 Version 0.20
+ *   <b>19-10-2008 Version 0.20</b>
  *   - Improved paddle control.
  *   - Improve screen layout.
  *   - Build game with devkitPPC r15 compiler.
  *
- *   18-10-2008 Version 0.10
+ *   <b>18-10-2008 Version 0.10</b>
  *   - Started programming.
  *   - Gameboard ready.
  *   - Basic game logic ready.
