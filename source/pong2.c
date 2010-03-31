@@ -64,7 +64,7 @@ void button1x(int channel);
 void button2y(int channel);
 void buttonHome(int channel);
 void musicSelect(bool show);
-void initBall(boolean direction);
+void initBall(bool direction);
 void initLevel(void);
 void storeScore(int gameLevel);
 void screenScore(int channel);
@@ -515,7 +515,7 @@ void drawIntroSceen(int index)
 	char *s_fn="drawIntroSceen";
 	traceEvent(s_fn,0,"enter [index=%d]",index);
 	
-   boolean flag = true;
+   bool flag = true;
    
    switch (index)
    {
@@ -929,7 +929,7 @@ void drawScreen()
 
 void buttonDown(int channel)
 {
-   boolean flag = true;
+   bool flag = true;
    switch (stateMachine)
    {
       case stateMenu:
@@ -986,7 +986,7 @@ void buttonDown(int channel)
 
 void buttonUp(int channel)
 {
-   boolean flag = true;
+   bool flag = true;
    
    switch (stateMachine)
    {
@@ -1118,7 +1118,7 @@ void buttonLeft(int channel)
 
 void buttonA(int channel)
 {
-   boolean flag = true;
+   bool flag = true;
  
    switch (stateMachine)
    {
@@ -1264,7 +1264,7 @@ void buttonA(int channel)
 
 void button1x(int channel)
 {
-   boolean flag = true;
+   bool flag = true;
  
    MODPlay_Stop(&snd1);  
    if (musicTrack<10) musicTrack++; else musicTrack=0;   
@@ -1281,7 +1281,7 @@ void button1x(int channel)
 
 void button2y(int channel)
 {
-   boolean flag = true;
+   bool flag = true;
  
    MODPlay_Stop(&snd1);
    if (musicTrack>0) musicTrack--; else musicTrack=10;
@@ -1298,7 +1298,7 @@ void button2y(int channel)
 
 void buttonActions(int channel)
 {
-    boolean flag = true;
+    bool flag = true;
  
     // Rumble if key is pressed
 	if (WPAD_ButtonsHeld(channel) & BUTTON_ANY )  
@@ -2248,7 +2248,7 @@ void initReleaseNotes(void)
 }
 
 // Init. Ball
-void initBall(boolean direction)
+void initBall(bool direction)
 {
 	char *s_fn="initBall";
 	traceEvent(s_fn,0,"enter");
