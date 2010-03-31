@@ -22,16 +22,21 @@
  *   - Add support for GameCube controller.
  *
  * @section ReleaseNotes
- *   <b>XX-XX-XXXX Version 1.0 (Up coming release)</b>
+ *   <b>31-12-2010 Version 1.00</b>
  *   - GUI:
  *    - Update main menu screen information.
+ *    - Improve game icon.
  *   - Core:
+ *    - Improve stability.
  *    - Improve network thread.
+ *    - Use libfat 1.0.7 as disk access engine.
+ *    - Use libogc 1.8.3 as Wii interface engine.
  *   - General:
+ *    - Make source code compliant with r21 compiler.
  *    - Added source code to Google Code Repository
  *    - Added source code documentation (Javadoc style).
  *    - Added Doxygen (automatic documentation generation tool) config file. 
- *    - Build game with devkitPPC r19 compiler.
+ *    - Build game with devkitPPC r21 compiler.
  *
  *   <b>15-11-2009 Version 0.99</b>
  *   - GUI:
@@ -184,13 +189,13 @@
 
 #define LAN(X) X
 
-#define PROGRAM_NAME	   "Pong2"
-#define PROGRAM_VERSION    "0.99"
-#define RELEASE_DATE       "19-11-2009" 
+#define PROGRAM_NAME	   	"Pong2"
+#define PROGRAM_VERSION    "1.00"
+#define RELEASE_DATE       "31-03-2010" 
 #define MAX_SCORE          10
 #define MAX_LEVEL          5
 #define MAX_LEN			   256
-#define MAX_BARS		   2
+#define MAX_BARS		   	2
 #define MAX_PADDLES		   2
 #define MAX_BUTTONS        10
 #define MAX_BUFFER_SIZE	   8196
