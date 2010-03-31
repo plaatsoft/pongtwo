@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Pong2</name>
+  <coder>wplaat</coder>
+  <version>1.00</version>
+  <short_description>PONG for Wii</short_description> 
+  <long_description>Pong2 is an open-source game based on the original pong game. This version have improve features. Paddle can be moved horizontal and vertical. Have 10 tracks of nice background music available. The player who first scores 10 points each level is the winner. 
+
+Special thanks to my family for there support during the development</long_description>
+</app>
+
