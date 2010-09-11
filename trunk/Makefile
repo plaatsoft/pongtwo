@@ -9,6 +9,9 @@ export	LIBJPEG_LIB	:=	../lib/jpeg/lib/wii
 export	LIBXML_INC	:=	../lib/mxml/include
 export	LIBXML_LIB	:=	../lib/mxml/lib
 
+export 	ZLIB_INC	  := ../lib/zlib/include
+export 	ZLIB_LIB	  := ../lib/zlib/lib/wii
+
 .SUFFIXES:
 #---------------------------------------------------------------------------------
 ifeq ($(strip $(DEVKITPPC)),)
@@ -97,6 +100,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES), -iquote $(CURDIR)/$(dir)) \
 					-I$(CURDIR)/$(BUILD) \
 					-I$(LIBOGC_INC) \
 					-I$(LIBJPEG_INC) \
+					-I$(ZLIB_INC) \
 					-I$(LIBXML_INC) 
 					
 
@@ -107,6 +111,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES), -iquote $(CURDIR)/$(dir)) \
 export LIBPATHS	:=	$(foreach dir,$(LIBDIRS), -L$(dir)/lib) \
 					-L$(LIBOGC_LIB) \
 					-L$(LIBJPEG_LIB) \
+					-L$(ZLIB_LIB) \
 					-L$(LIBXML_LIB) 
 				
 				
